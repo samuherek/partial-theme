@@ -20,7 +20,8 @@
     "prepare": "tsdx build"
   },
   "peerDependencies": {
-    "react": ">=16"
+    "react": ">=16",
+    "styled-components": "^5.1.0"
   },
   "husky": {
     "hooks": {
@@ -34,13 +35,17 @@
     "trailingComma": "es5"
   },
   "module": "dist/basic.esm.js",
-  "dependencies": {},
+  "dependencies": {
+    "clsx": "^1.1.0"
+  },
   "devDependencies": {
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.7",
+    "@types/styled-components": "^5.1.0",
     "husky": "^4.2.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0",
     "tsdx": "^0.13.2",
     "tslib": "^1.11.2",
     "typescript": "^3.8.3"
